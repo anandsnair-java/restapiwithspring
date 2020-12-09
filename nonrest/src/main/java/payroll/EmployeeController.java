@@ -42,9 +42,14 @@ public class EmployeeController {
         return CollectionModel.of(employees, linkTo(methodOn(EmployeeController.class).all()).withSelfRel());
     }
 
-//    @PostMapping("/employees")
+//    @PostMapping("/employees") //Original
 //    Employee newEmployee(@RequestBody Employee newEmployee) {
 //        return repository.save(newEmployee);
+//    }
+
+//    @PostMapping("/employees") //experimental
+//    EntityModel<Employee> newEmployee(@RequestBody Employee newEmployee) {
+//        return assembler.toModel(repository.save(newEmployee));
 //    }
 
     @PostMapping("/employees")
