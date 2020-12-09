@@ -5,6 +5,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import payroll.employee.Employee;
+import payroll.employee.EmployeeRepository;
+import payroll.order.Order;
+import payroll.order.OrderRepository;
 
 @Configuration
 public class LoadDatabase {

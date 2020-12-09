@@ -1,6 +1,7 @@
-package payroll;
+package payroll.order;
 
 import lombok.*;
+import payroll.Status;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
