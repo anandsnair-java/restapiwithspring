@@ -1,7 +1,7 @@
-package payroll.order;
+package com.anandsurendran.restapiwithspring.payroll.order;
 
 import lombok.*;
-import payroll.Status;
+import com.anandsurendran.restapiwithspring.payroll.Status;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

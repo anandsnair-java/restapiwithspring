@@ -1,4 +1,4 @@
-package payroll.order;
+package com.anandsurendran.restapiwithspring.payroll.order;
 
 public class OrderNotFoundException extends RuntimeException {
     public OrderNotFoundException(Long id) {

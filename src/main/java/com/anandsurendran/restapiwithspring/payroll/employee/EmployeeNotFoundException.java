@@ -1,4 +1,4 @@
-package payroll.employee;
+package com.anandsurendran.restapiwithspring.payroll.employee;
 
 public class EmployeeNotFoundException extends RuntimeException {
     public EmployeeNotFoundException(Long id) {

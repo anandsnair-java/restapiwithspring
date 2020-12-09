@@ -1,4 +1,4 @@
-package payroll.employee;
+package com.anandsurendran.restapiwithspring.payroll.employee;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

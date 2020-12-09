@@ -1,14 +1,14 @@
-package payroll;
+package com.anandsurendran.restapiwithspring.payroll;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import payroll.employee.Employee;
-import payroll.employee.EmployeeRepository;
-import payroll.order.Order;
-import payroll.order.OrderRepository;
+import com.anandsurendran.restapiwithspring.payroll.employee.Employee;
+import com.anandsurendran.restapiwithspring.payroll.employee.EmployeeRepository;
+import com.anandsurendran.restapiwithspring.payroll.order.Order;
+import com.anandsurendran.restapiwithspring.payroll.order.OrderRepository;
 
 @Configuration
 public class LoadDatabase {
